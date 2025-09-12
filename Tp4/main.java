@@ -21,6 +21,9 @@ public class main {
         // Instanciar el tercer objeto para demostrar IDs únicos
         Empleado asalariado3 = new Empleado("Luis Miguel ", "Vocalista", 35000.0);
         
+ 
+        // El método println() llama a toString() implícitamente
+        
         System.out.println("Información de los empleados creados:");
         System.out.println(asalariado1);
         System.out.println(asalariado2);
